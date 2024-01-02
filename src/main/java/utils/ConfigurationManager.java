@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigurationManager {
-    private static final String CONFIG_FILE_PATH = "src/main/java/DataProviders/Config.properties";
+    private static final String CONFIG_FILE_PATH = "src/main/resources/dataProviders/Config.properties";
 
     public static String getBrowserName() {
         Properties properties = new Properties();

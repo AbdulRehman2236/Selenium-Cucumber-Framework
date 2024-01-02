@@ -11,7 +11,7 @@ public class CheckoutPage {
     private final By elemLastName= By.id("last-name");
     private final By elemPostalCode =By.id("postal-code");
     private final By elemContinue = By.id("continue");
-    private  final By elemFinish = By.id("finish");
+    private final By elemFinish = By.id("finish");
     private final By elemOrderHeader = By.className("complete-header");
     private final By elemCheckoutPage = By.className("title");
 
